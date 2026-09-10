@@ -30,7 +30,6 @@ void setup() {
 }
 
 void loop() {
-  // 1. Check if Joystick Button is pressed (SW)
   if (digitalRead(7) == LOW) {
     checkCode();
     delay(2000); // Hold result for 2 seconds
@@ -38,7 +37,6 @@ void loop() {
     return;
   }
 
-  // 2. Read Joystick Axes
   int sensorX = analogRead(A0);
   int sensorY = analogRead(A1);
 
@@ -46,7 +44,6 @@ void loop() {
   float angleX = sensorX * (180.0 / 1023.0);
   float angleY = sensorY * (180.0 / 1023.0);
 
-  // 3. Move Cursor Left/Right
   if (angleX > 110) {
     moveRight();
     delay(300); // Debounce delay
@@ -54,7 +51,6 @@ void loop() {
     moveLeft();
     delay(300);
   } 
-  // 4. Change Number Up/Down
   else if (angleY > 110) {
     decrease(cursorPos);
     delay(250);
