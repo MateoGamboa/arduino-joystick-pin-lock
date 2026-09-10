@@ -8,13 +8,13 @@ A responsive, microcontroller-based electronic security lock system built using 
 
 ### Correct Passcode Entry (`1975`)
 <video autoplay loop muted playsinline width="100%">
-  <source src="correct_pin.mp4" type="video/mp4">
+  <source src="correct-pin.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
 
 ### Incorrect Passcode Entry
 <video autoplay loop muted playsinline width="100%">
-  <source src="wrong_pin.mp4" type="video/mp4">
+  <source src="wrong-pin.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
 
