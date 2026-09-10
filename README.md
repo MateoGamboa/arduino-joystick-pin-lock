@@ -7,10 +7,10 @@ A responsive, microcontroller-based electronic security lock system built using 
 ## Project Demonstration
 
 ### Correct Passcode Entry (`1975`)
-![Correct PIN Demo](https://github.com/user-attachments/assets/6d744df9-f28a-4301-9d3c-6a2dd5962b2d)
+<video src="https://github.com/user-attachments/assets/6d744df9-f28a-4301-9d3c-6a2dd5962b2d" controls width="100%"></video>
 
 ### Incorrect Passcode Entry
-![Incorrect PIN Demo](https://github.com/user-attachments/assets/faac8ee7-5b81-484f-a73b-64d44088ff95)
+<video src="https://github.com/user-attachments/assets/faac8ee7-5b81-484f-a73b-64d44088ff95" controls width="100%"></video>
 
 ---
 
