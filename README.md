@@ -7,16 +7,10 @@ A responsive, microcontroller-based electronic security lock system built using 
 ## Project Demonstration
 
 ### Correct Passcode Entry (`1975`)
-<video autoplay loop muted playsinline width="100%">
-  <source src="correct-pin.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
+![Correct PIN Demo](correct-pin.mp4)
 
 ### Incorrect Passcode Entry
-<video autoplay loop muted playsinline width="100%">
-  <source src="wrong-pin.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
+![Incorrect PIN Demo](wrong-pin.mp4)
 
 ---
 
